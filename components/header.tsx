@@ -28,7 +28,7 @@ export default function Header() {
             >
               <Link
                 href={link.hash}
-                className="flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition" // transition will make the animation smooth
+                className="flex w-full items-center justify-center px-2 py-3 hover:text-gray-950 transition" // transition will make the animation smooth
               >
                 {link.name}
               </Link>

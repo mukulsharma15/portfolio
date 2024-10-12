@@ -56,7 +56,7 @@ export default function Intro() {
         {/*  {" "} this is to add space, to remove this just write all the text in a single line  */}
         <span className="font-bold">Full Stack Developer</span> and a{" "}
         <span className="font-bold">Computer Science</span> student at the{" "}
-        <span className="font-bold">South Asian University.</span>I enjoy
+        <span className="font-bold">South Asian University.</span> I enjoy
         building <span className="italic">sites & apps. </span> My focus is{" "}
         <span className="underline">React, Next.js, and Tailwind CSS. </span>
       </motion.p>
