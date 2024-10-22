@@ -23,7 +23,7 @@ export default function Intro() {
           >
             <Image
               src={portrait}
-              alt="Mukul Portrait"
+              alt="Mukul_Portrait"
               width={192}
               height={192}
               quality={95}
