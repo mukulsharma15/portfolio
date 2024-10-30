@@ -1,4 +1,5 @@
 import Intro from "@/components/intro";
+import SectionDivider from "@/components/section-divider";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       {" "}
       {/* making this flex to center all the sections */}
       <Intro />
+      <SectionDivider />
     </main>
   );
 }
