@@ -85,17 +85,17 @@ export default function Intro() {
           {/* transition makes the animation smooth*/}
         </a>
         <a
-          href="https://linkedin.com/mukulbamn" target="_blank"
+          href="https://linkedin.com/in/mukulsharma15/" target="_blank"
           className="bg-white  text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://github.com/mukulbamn" target="_blank"
+          href="https://github.com/mukulsharma15" target="_blank"
           className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem]  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10" // This is used to increase the size of the icon
         >
           <FaGithubSquare />
-        </a>
+        </a>    
       </motion.div>
     </section>
   );
