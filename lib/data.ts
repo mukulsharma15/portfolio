@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaReact } from "react-icons/fa";
+import sauAcmImg from "@/public/sau-acm.png";
+import alumniconnectImg from "@/public/alumniconnect.png";
+import elitecarsImg from "@/public/elitecars.png";
 
 export const links = [
   {
@@ -35,73 +35,84 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BSc (Hons) Computer Science",
+    location: "University of Delhi",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Graduated with a CGPA of 8.0 from Atma Ram Sanatan Dharma College. Built strong foundations in data structures, algorithms, and software development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021 - 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full Stack Developer",
+    location: "There Is No Earth B (NGO)",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Developed and maintained production-ready web applications using React.js, Next.js, and Django. Collaborated with cross-functional teams to deliver scalable features.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Apr 2023 - Sep 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Managed Network Expert",
+    location: "Chegg India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Solved advanced problems in data structures, algorithms, operating systems, and databases. Helped students understand complex computer science concepts.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2023 - Sep 2024",
+  },
+  {
+    title: "MSc Computer Science",
+    location: "South Asian University",
+    description:
+      "Currently pursuing Master's degree with President's Scholarship. Serving as Vice Chair of ACM Student Chapter. Open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "SAU ACM Student Chapter",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Built a full-stack website for the ACM Student Chapter with dynamic routing, event management, and team modules.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    imageUrl: sauAcmImg,
   },
   {
-    title: "rmtDev",
+    title: "AlumniConnect",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A Django-based alumni information system with normalized MySQL schema, RESTful APIs, and comprehensive directory features.",
+    tags: ["Django", "MySQL", "REST API", "Python"],
+    imageUrl: alumniconnectImg,
   },
   {
-    title: "Word Analytics",
+    title: "EliteCars",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A premium supercar rental platform with responsive frontend interfaces, booking system, and vehicle showcase.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: elitecarsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Python",
+  "C",
+  "C++",
+  "Java",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
+  "Express.js",
   "Django",
-  "Framer Motion",
+  "HTML",
+  "CSS",
+  "Tailwind CSS",
+  "Bootstrap",
+  "MySQL",
+  "MongoDB",
+  "Git",
+  "AWS",
+  "Linux",
+  "Data Structures",
+  "Algorithms",
 ] as const;

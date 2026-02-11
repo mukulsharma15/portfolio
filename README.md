@@ -1,30 +1,49 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# Mukul Sharma | Portfolio Website
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+A modern, responsive portfolio website built with Next.js 13.
 
-## What you will learn
+## Features
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+- ⚡ Next.js 13 with App Router & Server Actions
+- 🎨 Beautiful UI with Tailwind CSS
+- 🌓 Light & Dark mode support
+- 🎬 Smooth animations with Framer Motion
+- 📧 Contact form with email integration (React Email & Resend)
+- 📱 Fully responsive design
+- 🔍 SEO optimized
 
-## Important
+## Tech Stack
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+- **Framework:** Next.js 13
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Email:** React Email & Resend
+- **Deployment:** Vercel
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+## Getting Started
 
-## Setup
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+2. Add environment variables (create `.env.local`):
+   ```
+   RESEND_API_KEY=your_resend_api_key
+   ```
+
+3. Update the email in `actions/send-email.ts` to your own email
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000)
+
+## Contact
+
+- **Email:** mukulsharma15122003@gmail.com
+- **LinkedIn:** [linkedin.com/in/mukulsharma15](https://linkedin.com/in/mukulsharma15)
+- **GitHub:** [github.com/mukulsharma15](https://github.com/mukulsharma15)
