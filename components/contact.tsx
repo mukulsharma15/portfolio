@@ -33,7 +33,7 @@ export default function Contact() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR_WEB3FORMS_ACCESS_KEY",
+          access_key: "b0a79fe4-a1de-43c9-8730-46cbd1b78d2b",
           from_name: senderEmail,
           email: senderEmail,
           subject: "New message from portfolio contact form",
