@@ -38,7 +38,7 @@ export default function Contact() {
           email: senderEmail,
           subject: "New message from portfolio contact form",
           message: message,
-          to: "mukulsharma.pro@gmail.com",
+          to: "mukulsh4rma@gmail.com",
         }),
       });
 
@@ -79,8 +79,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:mukulsharma.pro@gmail.com">
-          mukulsharma.pro@gmail.com
+        <a className="underline" href="mailto:mukulsh4rma@gmail.com">
+          mukulsh4rma@gmail.com
         </a>{" "}
         or through this form.
       </p>

@@ -19,25 +19,22 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a <span className="font-medium">Computer Science postgraduate</span> at{" "}
-        <span className="font-medium">South Asian University</span>, where I received the{" "}
-        <span className="italic">President's Scholarship</span>. I completed my Bachelor's from{" "}
-        <span className="font-medium">University of Delhi</span> with a CGPA of 8.0.{" "}
-        <span className="italic">My passion</span> lies in building{" "}
-        <span className="underline">scalable, production-ready web applications</span>. My core stack includes{" "}
-        <span className="font-medium">
-          React, Next.js, Django, Node.js, and MySQL/MongoDB
-        </span>
-        . I'm experienced with backend systems, REST APIs, and modern frontend frameworks. I'm currently{" "}
-        <span className="font-medium">open to all opportunities</span> — full-time roles, internships, research positions, or freelance work.
+        I'm a <span className="font-medium">Computer Science postgraduate (AI & ML)</span> from{" "}
+        <span className="font-medium">South Asian University</span>, where I graduated as{" "}
+        <span className="italic">class topper</span> with a CGPA of{" "}
+        <span className="font-medium">9.17</span> and received the{" "}
+        <span className="italic">President Scholarship (AIR 1)</span>. I completed my Bachelor's from{" "}
+        <span className="font-medium">University of Delhi</span> with a CGPA of{" "}
+        <span className="font-medium">7.73</span>.{" "}
+        <span className="italic">My focus</span> is building{" "}
+        <span className="underline">production-ready full-stack applications</span> and integrating{" "}
+        <span className="underline">LLM-driven automation workflows</span> into real products.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing{" "}
-        <span className="font-medium">video games</span>, reading books, and gathering knowledge about{" "}
-        <span className="font-medium">everything under the sun</span>. I'm also passionate about{" "}
-        <span className="font-medium">football and basketball</span>. As the{" "}
-        <span className="italic">Vice Chair of ACM Student Chapter</span> at my university, I love connecting with fellow tech enthusiasts and building community.
+        I also work on <span className="font-medium">generative AI research</span>, including diffusion-based ECG refinement and time-series synthesis.{" "}
+        <span className="italic">Outside tech</span>, I enjoy football and basketball, and I served as{" "}
+        <span className="italic">Vice Chair & Tech Lead of the ACM Student Chapter</span>, where I co-founded the chapter and led technical initiatives.
       </p>
     </motion.section>
   );

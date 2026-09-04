@@ -4,7 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { FaReact } from "react-icons/fa";
 import sauAcmImg from "@/public/sau-acm.png";
 import alumniconnectImg from "@/public/alumniconnect.png";
-import elitecarsImg from "@/public/elitecars.png";
+import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -38,33 +38,41 @@ export const experiencesData = [
     title: "BSc (Hons) Computer Science",
     location: "University of Delhi",
     description:
-      "Graduated with a CGPA of 8.0 from Atma Ram Sanatan Dharma College. Built strong foundations in data structures, algorithms, and software development.",
+      "Graduated from Atma Ram Sanatan Dharma College with a 7.73 CGPA (Major: Computer Science, Minor: Mathematics) and a strong systems-to-application foundation.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2024",
   },
   {
-    title: "Full Stack Developer",
-    location: "There Is No Earth B (NGO)",
+    title: "Front-End Developer Intern",
+    location: "There is No Earth B",
     description:
-      "Developed and maintained production-ready web applications using React.js, Next.js, and Django. Collaborated with cross-functional teams to deliver scalable features.",
+      "Built responsive web pages and components with React.js, Next.js, Express.js, and MySQL while improving frontend performance and backend data workflows.",
     icon: React.createElement(CgWorkAlt),
-    date: "Apr 2023 - Sep 2023",
+    date: "Mar 2023 - Dec 2023",
   },
   {
-    title: "Managed Network Expert",
+    title: "Subject Matter Expert",
     location: "Chegg India",
     description:
-      "Solved advanced problems in data structures, algorithms, operating systems, and databases. Helped students understand complex computer science concepts.",
+      "Solved 200+ Computer Science questions across algorithms, operating systems, databases, and complexity analysis while maintaining a 96% accuracy rate.",
     icon: React.createElement(CgWorkAlt),
-    date: "Nov 2023 - Sep 2024",
+    date: "Jul 2023 - Jul 2024",
   },
   {
-    title: "MSc Computer Science",
+    title: "Web Developer",
+    location: "The Anecdote Media",
+    description:
+      "Delivered 2 CRM platforms, built 25+ reusable UI components, integrated LLM tools and n8n automation pipelines, and improved key production pages to Lighthouse 90+.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2024 - Feb 2026",
+  },
+  {
+    title: "MSc Computer Science (AI & ML)",
     location: "South Asian University",
     description:
-      "Currently pursuing Master's degree with President's Scholarship. Serving as Vice Chair of ACM Student Chapter. Open to full-time opportunities.",
+      "Graduated as class topper with a 9.17 CGPA and President Scholarship (AIR 1). Served as Vice Chair & Tech Lead of ACM Student Chapter.",
     icon: React.createElement(FaReact),
-    date: "2024 - Present",
+    date: "2024 - 2026",
   },
 ] as const;
 
@@ -72,23 +80,23 @@ export const projectsData = [
   {
     title: "SAU ACM Student Chapter",
     description:
-      "Built a full-stack website for the ACM Student Chapter with dynamic routing, event management, and team modules.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+      "Architected and deployed the official SAU ACM website with responsive UI, event listings, team pages, and community-focused content.",
+    tags: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "cPanel"],
     imageUrl: sauAcmImg,
   },
   {
     title: "AlumniConnect",
     description:
-      "A Django-based alumni information system with normalized MySQL schema, RESTful APIs, and comprehensive directory features.",
-    tags: ["Django", "MySQL", "REST API", "Python"],
+      "Developed a Django alumni management platform with REST APIs, role-based access control, and cloud-ready deployment architecture.",
+    tags: ["Django", "REST API", "MySQL", "AWS", "Bootstrap"],
     imageUrl: alumniconnectImg,
   },
   {
-    title: "EliteCars",
+    title: "TIL Video Studio",
     description:
-      "A premium supercar rental platform with responsive frontend interfaces, booking system, and vehicle showcase.",
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    imageUrl: elitecarsImg,
+      "Built a TypeScript web app for streamlining short-form educational video creation with reusable UI components and typed interaction flows.",
+    tags: ["TypeScript", "Web App", "UI Components"],
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
@@ -101,18 +109,32 @@ export const skillsData = [
   "TypeScript",
   "React.js",
   "Next.js",
-  "Node.js",
-  "Express.js",
-  "Django",
-  "HTML",
-  "CSS",
   "Tailwind CSS",
   "Bootstrap",
+  "Material UI",
+  "Django",
+  "Node.js",
+  "Express.js",
+  "REST API",
+  "FastAPI",
+  "PyTorch",
+  "TensorFlow",
+  "scikit-learn",
+  "Diffusion Models",
+  "GANs",
+  "Transformers",
+  "LLM Integration",
+  "Prompt Engineering",
+  "n8n",
+  "HTML",
+  "CSS",
   "MySQL",
+  "PostgreSQL",
   "MongoDB",
   "Git",
+  "GitHub",
   "AWS",
+  "GCP",
+  "Docker",
   "Linux",
-  "Data Structures",
-  "Algorithms",
 ] as const;
