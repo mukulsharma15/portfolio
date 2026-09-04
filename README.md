@@ -44,6 +44,6 @@ A modern, responsive portfolio website built with Next.js 13.
 
 ## Contact
 
-- **Email:** mukulsharma15122003@gmail.com
+- **Email:** mukulsh4rma@gmail.com
 - **LinkedIn:** [linkedin.com/in/mukulsharma15](https://linkedin.com/in/mukulsharma15)
 - **GitHub:** [github.com/mukulsharma15](https://github.com/mukulsharma15)
